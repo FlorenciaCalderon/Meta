@@ -40,6 +40,12 @@ body {
   display: block;
   background-color: black;
   height: 200px;
+  color: white;
+}
+
+.contacto {
+  margin-top: 90px;
+  margin-left: 20px;
 }
 
 /* For mobile phones and tablets: */
