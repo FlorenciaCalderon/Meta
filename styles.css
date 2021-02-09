@@ -1,0 +1,47 @@
+/* For desktop: */
+
+body {
+  display: grid;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "navbar navbar navbar navbar"
+    ". content content ."
+    "footer footer footer footer";
+  gap: 0px 0px;
+}
+
+.navbar-container {
+  grid-area: navbar;
+  display: block;
+  height: 150px;
+  background-image: url(dollars.jpg);
+}
+
+#logo {
+  font-size: 80px;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.content {
+  grid-area: content;
+  display: inline-block;
+  background-color: lavender;
+  height: fit-content;
+}
+
+.footer {
+  grid-area: footer;
+  display: block;
+  background-color: black;
+  height: 200px;
+}
+
+/* For mobile phones and tablets: */
+@media only screen and (max-width: 800px) {
+}
